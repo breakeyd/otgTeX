@@ -1,0 +1,33 @@
+otgTeX
+
+For the otgTeX Application
+-------------------------
+	Copyright (C) 2012 David Breakey
+
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+For other included software
+-------------------------
+
+	The ported TeX Live code and built distributions (otgTeX Live) maintain the
+	appropriate TeX Live licenses, and can be freely modified and distributed. 
+	Details are available at http://www.tug.org/texlive/LICENSE.TL and in the 
+	texsrc directory.
+	
+	This product includes software developed at Research In Motion Limited 
+	(http://www.rim.com/). The files guiOpenGLbbutil.c and guiOpenGLbbutil.h 
+	are modified versions of bbutil.c and bbutil.h released by Research In 
+	Motion Limited under the Apache 2.0 License. A copy of this license is 
+	available in the LICENSE file.

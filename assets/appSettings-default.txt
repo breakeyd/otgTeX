@@ -1,0 +1,8 @@
+$HOME/../shared/downloads
+.tex
+$TEXBIN/pdftex -fmt=pdflatex -halt-on-error 
+cmd:
+Auto
+0
+1
+1

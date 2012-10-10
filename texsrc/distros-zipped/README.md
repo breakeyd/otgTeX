@@ -1,13 +1,11 @@
 Installing otgTeX Live distributions
 =====
 
-The distros (http://github.com/breakeyd/bbTeX/downloads) can be installed directly to your
-PlayBook by downloading the .zip archive that you want to your PlayBook and using bbTeX to
-install.
+The distros can be installed directly to your PlayBook by downloading the .zip archive
+that you want to your PlayBook and using otgTeX to install.
 
-To download one of the .zip archives, go to http://github.com/breakeyd/bbTeX/downloads and
-choose one. You can download it directly to your PlayBook and then use the "TeX Dist"
-option in the menu in otgTeX.
+To download one of the .zip archives, select one of the links below. You can download it
+directly to your PlayBook and then use the "TeX Dist" option in the menu in otgTeX.
 
 Some of standard TeX modules were disabled (notably XeTeX) when the binaries were created.
 The system has been tested primarily with pdfTeX, but some other *TeX systems should work.
@@ -26,11 +24,14 @@ packages based on your needs. They are:
 	* Size:			1.66 GB (745 MB zipped)	
 	* Contents:		This distro contains a full TeX Live 2012 build 
 					(http://www.tug.org/texlive/) without any documentation files.
+	* Link:			http://github.com/downloads/breakeyd/otgTeX/otgtexlive-2012.zip
 2. otgtexlive-2012basic
 	* Size:			155 MB (60 MB zipped)
 	* Contents: 	This distro contains all the packages included with the basic
 					MacTeX distribution (http://www.tug.org/mactex/).
+	* Link:			http://github.com/downloads/breakeyd/otgTeX/otgtexlive-2012basic.zip
 3. otgtexlive-2012-BaseFonts
 	* Size:			665 MB (225 MB zipped)
 	* Contents:		This distro contains a full texlive 2012 build but only with
 					the fonts included in the basic MacTeX distribution.
+	* Link:			http://github.com/downloads/breakeyd/otgTeX/otgtexlive-2012BaseFonts.zip

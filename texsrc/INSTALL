@@ -1,0 +1,37 @@
+This software is a ported version of TeX Live 2012 (http://tug.org/texlive/) and was built
+with only minor modifications (detailed below). 
+
+Some of the standard packages (notably XeTeX) were disabled for the build. The system has
+been tested primarily with pdfTeX, but some other *TeX systems should work. If you need
+a system that isn't provided by default, you may need to adjust the build settings and 
+some source files.
+
+###
+Build instructions for TeX Live on the PlayBook (in 3 easy steps!).
+###
+
+0: 		Obtain a copy of the TeX Live source and the TeX Live texmf directories
+			(e.g. from ftp://tug.org/historic/systems/texlive/2012/
+				  texlive-20120701-texmf.tar.xz  -> TeX Live directory
+				  texlive-20120701-source.tar.xz -> Source directory)
+0.5:	Copy the texmf-config, texmf-var, and texmf-local directories from a suitable TeX
+			Live distribution such as the one on your normal machine to the TeX Live
+			directory. Alternatively, you could generate the configuration files yourself.
+1:		Apply the pbmods.patch file to the TeX Live source directory
+			(e.g. cd ./texlive-20120701-source; patch -p1 < ../pbmods.patch)
+1.5:	Modify the ./playbook_build.sh script and point it to your BlackBerry native SDK
+			(and probably modify the build type as well)
+2: 		Run the ./playbook_build.sh script.
+3: 		Copy ./$SRC_DIR/inst/bin (and ./$SRC_DIR/inst/lib if necessary) to the TeX Live
+			directory
+
+Once built, you can:
+
+4: 		Zip your distribution (and optionally move it to ./distros-zipped)
+5: 		Extract and install your zipped distribution using bbTeX after copying it to your
+			PlayBook (or move it to ../../bbTeX/texlive and build bbTeX from source)
+
+NOTE:
+./pbmods.patch indicates the changes that were necessary for the texlive-20120701 source
+to be built for the PlayBook. More (or fewer) changes may be necessary for future 
+distributions.

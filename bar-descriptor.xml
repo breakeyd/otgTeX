@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+    Copyright (C) 2012 David Breakey
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<qnx xmlns="http://www.qnx.com/schemas/application/1.0">
+    <id>com.breakeyd.bbtex</id>
+    <name>otgTeX</name>
+    <versionNumber>1.0.2</versionNumber>
+    <buildId>6</buildId>
+    <author>David Breakey</author>
+    <authorId>gYAAgBCLNuCnzm2bn1rxRzfoZUA</authorId>
+    <initialWindow>
+        <aspectRatio>landscape</aspectRatio>
+        <autoOrients>false</autoOrients>
+        <systemChrome>none</systemChrome>
+        <transparent>false</transparent>
+    </initialWindow>
+    <category>core.media</category>
+    <asset path="README.md">README.md</asset>
+    <asset path="LICENSE">LICENSE</asset>
+    <asset path="NOTICE">NOTICE</asset>
+    <asset path="assets/icon.png">icon.png</asset>
+    <asset path="assets/otgtex_bkgd.png">otgtex_bkgd.png</asset>
+    <asset path="assets/lang">lang</asset>
+    <asset path="assets/appSettings-default.txt">appSettings-default.txt</asset>
+    <asset path="texlive">texlive</asset>
+    <configuration id="com.qnx.qcc.toolChain.1997563901" name="Default">
+       <platformArchitecture>armle-v7</platformArchitecture>
+       <asset path="arm/o.le-v7/otgTeX" entry="true" type="Qnx/Elf">lib/bbTeX</asset>
+    </configuration>
+    <configuration id="com.qnx.qcc.toolChain.330842581" name="Device-Debug">
+       <platformArchitecture>armle-v7</platformArchitecture>
+       <asset path="arm/o.le-v7-g/otgTeX" entry="true" type="Qnx/Elf">bbTeX</asset>
+    </configuration>
+    <configuration id="com.qnx.qcc.toolChain.1701667723" name="Device-Release">
+       <platformArchitecture>armle-v7</platformArchitecture>
+       <asset path="arm/o.le-v7/otgTeX" entry="true" type="Qnx/Elf">lib/bbTeX</asset>
+    </configuration>
+    <configuration id="com.qnx.qcc.toolChain.868688934" name="Simulator-Debug">
+       <platformArchitecture>x86</platformArchitecture>
+       <asset path="x86/o-g/otgTeX" entry="true" type="Qnx/Elf">otgTeX</asset>
+    </configuration>
+     <icon>
+        <image>icon.png</image>
+    </icon>
+    <action system="true">run_native</action>
+    <action>access_shared</action>
+    <env var="LD_LIBRARY_PATH" value="app/native/lib"/>    
+</qnx>

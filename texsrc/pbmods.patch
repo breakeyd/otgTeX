@@ -1,0 +1,52 @@
+diff -rupN texlive-20120701-source/texk/web2c/lib/eofeoln.c texlive-20120701-mod/texk/web2c/lib/eofeoln.c
+--- texlive-20120701-source/texk/web2c/lib/eofeoln.c	2012-02-14 12:38:08.000000000 +0000
++++ texlive-20120701-mod/texk/web2c/lib/eofeoln.c	2012-07-27 01:27:25.000000000 +0100
+@@ -8,7 +8,11 @@
+    Pascal's `eof' builtin.  */
+ 
+ boolean
+-eof (FILE *file)
++#ifdef __QNXNTO__
++extern eofloc (FILE *file)
++#else
++extern eof (FILE *file)
++#endif
+ {
+   register int c;
+ 
+diff -rupN texlive-20120701-source/texk/web2c/lib/lib.h texlive-20120701-mod/texk/web2c/lib/lib.h
+--- texlive-20120701-source/texk/web2c/lib/lib.h	2012-01-17 10:50:08.000000000 +0000
++++ texlive-20120701-mod/texk/web2c/lib/lib.h	2012-07-27 01:25:58.000000000 +0100
+@@ -11,7 +11,11 @@ extern string basenamechangesuffix (cons
+ extern string chartostring (char);
+ 
+ /* eofeoln.c */
++#ifdef __QNXNTO__
++extern boolean eofloc (FILE *);
++#else
+ extern boolean eof (FILE *);
++#endif
+ extern boolean eoln (FILE *);
+ extern void readln (FILE *);
+ 
+diff -rupN texlive-20120701-source/texk/web2c/pdftexdir/utils.c texlive-20120701-mod/texk/web2c/pdftexdir/utils.c
+--- texlive-20120701-source/texk/web2c/pdftexdir/utils.c	2012-06-28 09:19:32.000000000 +0100
++++ texlive-20120701-mod/texk/web2c/pdftexdir/utils.c	2012-07-27 00:15:30.000000000 +0100
+@@ -20,10 +20,15 @@ with this program.  If not, see <http://
+ #include "openbsd-compat.h"
+ 
+ #include <sys/types.h>
+-#ifdef WIN32
++
++#ifdef __QNXNTO__
+ #define EX_SOFTWARE EXIT_FAILURE
+ #else
+-#include <sysexits.h>
++	#ifdef WIN32
++	#define EX_SOFTWARE EXIT_FAILURE
++	#else
++	#include <sysexits.h>
++	#endif
+ #endif
+ #ifdef __MINGW32__
+ #include <regex/regex.h>

@@ -1,0 +1,48 @@
+##name Deutsch (Deutschland)
+##isocode de_DE
+
+STR_BTN_EXEC										:Ausführen
+STR_BTN_SHOWLOG										:Log zeigen
+STR_BTN_FILESEL										:Datei auswählen...
+
+STR_BTN_AUTOPDF										:PDF aut. anzeigen
+STR_BTN_AUTODISPRESULT								:Ergebnis aut. anzeigen
+STR_BTN_AUTOBUILDCOMMAND							:Befehl aut. anbauen
+
+STR_CONTENTS_OF										:Inhalt von:
+STR_PROCESSING_CMD									:Befehl wird durchgeführt...
+STR_DEFAULT_CMD										:Befehl:
+
+STR_LOG_WRITE_FAIL									:Logdatei könnte nicht geschrieben werden
+STR_LOG_READ_FAIL									:Logdatei könnte nicht gelesen werden
+
+STR_FIRST_RUN_QUERY									:Die Erstlauf Aufgaben dauern einige Minuten (~5 Min). Jetzt weiterführen?
+STR_FIRST_RUN_RUNNING								:Erstlauf Aufgaben werden durchgeführt
+STR_FIRST_RUN_MOVE									:TeX Distribution wird umgezogen...
+STR_FIRST_RUN_EXTRACT								:TeX Distribution wird installiert. Dies kann eine lange Zeit dauern...
+STR_FIRST_RUN_REMOVE								:Temporäre Dateien werden gelöscht...
+STR_FIRST_RUN_INST_REQ								:<html><b>Willkommen bei otgTeX.</b><br><br>Während die Benutzung können Sie den obersten Rahmen ziehen, um das Menü zu zeigen.</html>
+
+STR_MENU_CHOOSE_TEX									:TeX Dist
+STR_MENU_CHOOSE_LANGUAGE							:Sprache
+STR_MENU_CHOOSE_HELP								:Hilfe
+STR_MENU_CHOOSE_RESET								:Defaultwerte
+STR_MENU_CHOOSE_RESET_CONF							:Textfelder in Defaultwerte setzen?
+
+STR_ALERT_PAGEREV									:<- Vorherige Seite
+STR_ALERT_PAGEADV									:Nächste Seite ->
+
+STR_ADDDIST_MESSAGE									:Wählen Sie eine Installationsmethode:
+STR_ADDDIST_FILE									:Lokale Datei...
+STR_ADDDIST_FILE_BADSEL								:Datei muss ein .zip-Archiv sein.
+STR_ADDDIST_FILE_QUERY								:Die Installation einer Distribution kann eine lange Zeit dauern (~17 Minuten fürs ganze otgTeX Live) und kann nicht untergebrochen werden. Sie sollen sicher machen, dass Sie genug Akku und Zeit haben. Nach der Installation müssen Sie die Distribution im Menü aktivieren. Möchten Sie jetzt weiterführen?
+STR_ADDDIST_DOWNLOAD								:Herunterladen...
+STR_ADDDIST_DOWNLOAD_INSTRUCT						:Sie können neue Distributionen auf der folgenden Webseite herunterladen. Nach dem Herunterladen, benutzen Sie dieses Menü wieder, und wählen Sie "Lokale Datei auswählen...."
+STR_ADDDIST_OVERWRITE_CONF							:Diese TeX Distribution ist schon installiert. Überschreiben?
+STR_ADDDIST_OVERWRITE_DEL							:Installation vorbereiten...
+STR_ADDDIST_SUCCESS									:Die TeX Distribution wurde erfolgreich installiert. Sie kann nun im Menü aktiviert werden.
+
+STR_INST_CONT										:<html><b>Felder und Befehle</b><br>Das erste Textfeld wird per "Ausführen" ausgeführt. Irgendeinen QNX Shell Befehl kann hier eingegeben werden. Die nächste drei Reihen sind für den Anbau des Befehls und sind nur benutzt wenn "Befehl aut. anbauen" gewählt ist. Felder zwei, drei, und vier sind bzw. das Arbeitsverzeichnis, die Eingabedatei, und den TeX Befehl. "Datei auswählen..." zeigt einen Auswahlfenster, um die Datei und das Verzeichnis Felder zu erfüllen. "PDF aut. anzeigen" zeigt automatisch das PDF am Ende des Absetzens. "Ergebnis aut. anzeigen" macht auch so mit dem Befehlergebnis. Das neueste Befehlergebnis kann auch per "Log zeigen" gezeigt werden.<br><br><b>Benutzeroberfläche</b><br>Das Berühen einer der Textfelder aktiviert es, und den Cursor ist per horizontal ziehen bewegt. Die Tastatur ist verfügbar per ziehen von der linken unteren Ecke. Diese Anleitung kann immer noch per ziehen des oberstes Rahmens gefunden werden.<br><br><b>Installierung Neuer TeX Distributionen</b><br>Benutzen Sie "TeX Dist" unter dem Menü, um neue TeX Distributionen zu installieren oder installierte Distributionen zu aktivieren. Dies braucht viel freien Speicherplatz.</html>
+
+
+##end

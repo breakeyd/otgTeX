@@ -1,0 +1,47 @@
+##name English (Canada)
+##isocode en_CA
+
+STR_BTN_EXEC										:Execute
+STR_BTN_SHOWLOG										:Show log
+STR_BTN_FILESEL										:Choose file...
+
+STR_BTN_AUTOPDF										:Auto show PDF
+STR_BTN_AUTODISPRESULT								:Auto display result
+STR_BTN_AUTOBUILDCOMMAND							:Auto build command
+
+STR_CONTENTS_OF										:Contents of:
+STR_PROCESSING_CMD									:Processing command...
+STR_DEFAULT_CMD										:cmd:
+
+STR_LOG_WRITE_FAIL									:Could not write log file
+STR_LOG_READ_FAIL									:Could not read log file
+
+STR_FIRST_RUN_QUERY									:The first use tasks require several minutes to complete (~5min). Continue now?
+STR_FIRST_RUN_RUNNING								:Running first use tasks...
+STR_FIRST_RUN_MOVE									:Moving TeX distribution...
+STR_FIRST_RUN_EXTRACT								:Installing TeX distribution. This may take a while...
+STR_FIRST_RUN_REMOVE								:Cleaning temporary files...
+STR_FIRST_RUN_INST_REQ								:<html><b>Welcome to otgTeX.</b><br><br>This is the first use. Instructions can be accessed at any time during use with a downward swipe from the top bezel.</html>
+
+STR_MENU_CHOOSE_TEX									:TeX Dist
+STR_MENU_CHOOSE_LANGUAGE							:Language
+STR_MENU_CHOOSE_HELP								:Help
+STR_MENU_CHOOSE_RESET								:Defaults
+STR_MENU_CHOOSE_RESET_CONF							:Set text fields to defaults?
+
+STR_ALERT_PAGEREV									:<- Previous Page
+STR_ALERT_PAGEADV									:Next page ->
+
+STR_ADDDIST_MESSAGE									:Choose a method to install the new distribution.
+STR_ADDDIST_FILE									:Local file...
+STR_ADDDIST_FILE_BADSEL								:The file must be .zip archive.
+STR_ADDDIST_FILE_QUERY								:Installing a distribution can take a long time (~17 min for a full otgTeX Live distro) and cannot be interrupted. You should ensure you have sufficient battery life and time to proceed. After the installation you will have to activate the new distribution in the menu. Do you want to proceed now?
+STR_ADDDIST_DOWNLOAD								:Download file...
+STR_ADDDIST_DOWNLOAD_INSTRUCT						:New distributions can be downloaded from that will open when you press "OK." After the download completes, use this menu and select "Choose local file...."
+STR_ADDDIST_OVERWRITE_CONF							:TeX distribution already installed. Overwrite?
+STR_ADDDIST_OVERWRITE_DEL							:Preparing for installation.
+STR_ADDDIST_SUCCESS									:TeX distribution successfully installed. It can now be activated in the menu.
+
+STR_INST_CONT										:<html><b>Fields and Commands</b><br>The first line will be run when "Execute" is pressed. Any QNX shell command can be executed here. The next three lines are used to fill the first line if "Auto build command" is selected. The second, third, and fourth line are the working directory, file to typeset, and TeX command to be run, respectively. The file and directory can be populated from the filesystem using "Choose file...," which can be navigated recursively. "Auto display PDF" will automatically open the output file in your PDF viewer after typesetting. "Auto display result" will automatically show you the result of your most recent command on completion. The most recent result can be viewed again later with "Show Log."<br><br><b>Interface</b><br>Select a field by tapping on it and use a touch and drag gesture to move the cursor. The keyboard can be revealed by swiping up and to the right from the bottom left corner. These instructions can be shown again with a downward swipe.<br><br><b>Installing New TeX Distributions</b><br>"TeX Dist" will let you choose the active TeX distribution and can guide you through the process of installing new distributions. This may require a large amount of free disk space.</html>
+
+#end
