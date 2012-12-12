@@ -34,4 +34,4 @@ packages based on your needs. They are:
 	* Size:			665 MB (225 MB zipped)
 	* Contents:		This distro contains a full texlive 2012 build but only with
 					the fonts included in the basic MacTeX distribution.
-	* Link:			http://github.com/downloads/breakeyd/otgTeX/otgtexlive-2012BaseFonts.zip
+	* Link:			http://github.com/downloads/breakeyd/otgTeX/otgtexlive-2012-BaseFonts.zip
