@@ -30,8 +30,8 @@ LIBS+=bps screen EGL GLESv1_CM freetype png
 
 include $(MKFILES_ROOT)/qmacros.mk
 
-# Suppress the _g suffix from the debug variant
-BUILDNAME=$(IMAGE_PREF_$(BUILD_TYPE))$(NAME)$(IMAGE_SUFF_$(BUILD_TYPE))
+# Set executable name
+BUILDNAME=otgTeX
 
 include $(MKFILES_ROOT)/qtargets.mk
 

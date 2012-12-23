@@ -1,17 +1,18 @@
 otgTeX
 =====
 
-otgTeX is a port of TeX Live (http://tug.org/texlive/) to the BlackBerry® PlayBook™ by
-David Breakey (http://www.davidbreakey.ca).
+otgTeX is a port of TeX Live (http://tug.org/texlive/) to mobile devices by David Breakey
+(http://www.davidbreakey.ca). Currently the code has been ported to the the BlackBerry®
+PlayBook™ tablet.
 
-otgTeX includes the ported TeX Live code, various distributions of TeX Live built for the
-PlayBook, and an application written for the BlackBerry® Tablet OS Native SDK. It has
-translations for English and German and can easily be extended for more languages.
+otgTeX includes the ported TeX Live code, various distributions of TeX Live built for
+mobile architectures, and GUI applications written for each target OS. It has translations
+for English and German and can easily be extended for more languages.
 
-The otgTeX application is available on the BlackBerry® App World for a modest price.
+The otgTeX application is available on the respective app stores for a modest price.
 Alternatively, otgTeX can be compiled from this source for free, though it is not
-permitted to re-submit this app to the BlackBerry® App World without significant
-modification or prior permission. 
+permitted to re-submit this app to the app stores without significant modification or
+prior permission. 
 
 License Information
 -------------------

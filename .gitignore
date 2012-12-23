@@ -6,10 +6,10 @@ texsrc/distros-zipped/*.zip
 *cur-build-output/
 
 # BlackBerry NDK compiled objects
-*arm/o.le-v7-g/otgTeX
-*arm/o.le-v7/otgTeX
-*x86/o/otgTeX
-*x86/o-g/otgTeX
+*/*arm/o.le-v7-g/otgTeX
+*/*arm/o.le-v7/otgTeX
+*/*x86/o/otgTeX
+*/*x86/o-g/otgTeX
 *.bar
 
 # For macs

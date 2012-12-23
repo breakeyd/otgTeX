@@ -29,9 +29,9 @@
         <transparent>false</transparent>
     </initialWindow>
     <category>core.media</category>
-    <asset path="README.md">README.md</asset>
-    <asset path="LICENSE">LICENSE</asset>
-    <asset path="NOTICE">NOTICE</asset>
+    <asset path="../README.md">README.md</asset>
+    <asset path="../LICENSE">LICENSE</asset>
+    <asset path="../NOTICE">NOTICE</asset>
     <asset path="assets/icon.png">icon.png</asset>
     <asset path="assets/otgtex_bkgd.png">otgtex_bkgd.png</asset>
     <asset path="assets/lang">lang</asset>
